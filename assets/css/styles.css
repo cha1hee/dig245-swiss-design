@@ -2,17 +2,18 @@
 /* css */
 
 @media (max-width: 1500px) {
-  .container {
+
+  html {
+        overflow: scroll;
+  }
+
+  html, body{
     background-color: #ffd502;
-    padding-left: 4.2%;
-    padding-right: 0px;
+    padding-left: 50px;
   }
 
   .col-lg-3, .col-lg-4, .col-lg-5{
     font-size: 22px;
-  }
-
-  .col-lg-3 {
   }
 
   .col-lg-4 {
@@ -29,6 +30,7 @@
 
   .art {
     float: right;
+    width: auto;
   }
 
   .emptyspace {
@@ -38,122 +40,73 @@
   .smEmptySpace {
     height: 50px;
   }
-}
 
+}
 
 @media (max-width: 991.98px) {
-  .container {
+
+  html, body{
     background-color: #ffd502;
-    padding-left: 4.2%;
-    padding-right: 0px;
+    padding-left: 20px;
   }
 
-  .col-md-2{
+  .col-md-4{
     font-size: 22px;
   }
 
-  .col-md-3 {
-  }
-
-  .col-md-4 {
-    text-align: right;
+  .col-md-8 {
+    font-size: 60px;
   }
 
   .ticketText {
     text-align: left;
   }
 
-  .col-md-7 {
-    font-size: 95px;
-  }
 
   .art {
+    margin-right: 0;
     float: right;
-    scale: 0.5;
+    scale: 0.7;
+    transform: translate(300px,0px);
   }
 
   .emptyspace {
-    height: 150px;
+    height: 30px;
   }
 
   .smEmptySpace {
-    height: 50px;
+    height: 20px;
   }
 }
+
 
 @media (max-width: 767.98px) {
-  .container {
+
+  html, body{
     background-color: #ffd502;
-    padding-left: 4.2%;
-    padding-right: 0px;
+    padding-left: 20px;
   }
 
   .col-md-2{
-    font-size: 22px;
+    font-size: 12px;
   }
 
-  .col-md-3 {
+  .col-md-5 {
+    font-size: 60px;
   }
 
-  .col-md-4 {
+  .where, .date, .ticketText {
     text-align: right;
-  }
-
-  .ticketText {
-    text-align: left;
-  }
-
-  .col-md-7 {
-    font-size: 95px;
   }
 
   .art {
     float: right;
-    scale: 0.2;
+    scale: 0.57;
+    transform: translate(600px,0px);
   }
 
   .emptyspace {
-    height: 150px;
-  }
-
-  .smEmptySpace {
-    height: 50px;
-  }
-}
-
-@media (max-width: 575.98px) {
-  .container {
-    background-color: #ffd502;
-    padding-left: 4.2%;
-    padding-right: 0px;
-  }
-
-  .col-md-2{
-    font-size: 22px;
-  }
-
-  .col-md-3 {
-  }
-
-  .col-md-4 {
-    text-align: right;
-  }
-
-  .ticketText {
-    text-align: left;
-  }
-
-  .col-md-7 {
-    font-size: 95px;
-  }
-
-  .art {
-    float: right;
-    scale: 0.2;
-  }
-
-  .emptyspace {
-    height: 150px;
+    height: 0px;
   }
 
   .smEmptySpace {
