@@ -97,24 +97,22 @@
     font-family: 'Libre Franklin', sans-serif;
     color: #000000;
     text-decoration: none;
+    font-size: 36px;
   }
 
-  .col-md-2{
-    font-size: 12px;
+
+  .col-md-1{
+    font-size: 14px;
     font-family: 'Libre Franklin', sans-serif;
   }
 
-  .col-md-5 {
-    font-size: 60px;
-    font-family: 'Libre Franklin', sans-serif;
-  }
 
   .where, .date, .ticketText {
     text-align: right;
   }
 
   .emptyspace {
-    height: 0px;
+    height: 20px;
   }
 
   .smEmptySpace {
